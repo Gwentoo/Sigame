@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Implementation-Title: jansi
+Bundle-Description: Jansi is a java library for generating and interpr
+ eting ANSI escape sequences.
+Automatic-Module-Name: org.fusesource.jansi
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.fusesource.jansi
+Implementation-Version: 2.3.4
+Specification-Vendor: FuseSource, Corp.
+Bundle-ManifestVersion: 2
+Specification-Title: jansi
+Bundle-DocURL: http://fusesource.com/
+Bundle-Vendor: FuseSource, Corp.
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-5.1.1.202006162103
+Implementation-Vendor: FuseSource, Corp.
+Main-Class: org.fusesource.jansi.AnsiMain
+Export-Package: org.fusesource.jansi;uses:="org.fusesource.jansi.io";v
+ ersion="2.3.4",org.fusesource.jansi.internal;version="2.3.4",org.fuse
+ source.jansi.io;uses:="org.fusesource.jansi";version="2.3.4"
+Bundle-Name: jansi
+Bundle-Version: 2.3.4
+Build-Jdk-Spec: 1.8
+Created-By: Apache Maven Bundle Plugin
+Specification-Version: 2.3
+
